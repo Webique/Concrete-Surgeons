@@ -1,14 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/jpeg" href="/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Updated Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <title>Concrete Surgeons</title>
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- DNS Prefetch for third parties -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+    <!-- Preload LCP hero image for faster first paint -->
+    <link rel="preload" href="/demohero.jpeg" as="image" fetchpriority="high" />
+
+    <!-- Preload critical fonts with font-display: swap -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- Default Meta Tags (will be overridden by Helmet on each page) -->
+    <title>
+      Concrete Surgeons | Demolition, Cutting & Structural Retrofitting in Egypt
+    </title>
+    <meta
+      name="description"
+      content="Concrete Surgeons - The Middle East's leading specialist in safety demolition, concrete cutting, and structural retrofitting. Serving Egypt and the Gulf since 2007."
+    />
+
+    <!-- Default Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Default Open Graph Tags (fallback) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Concrete Surgeons" />
+    <meta property="og:image" content="https://csmisr.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Default Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://csmisr.com/og-image.png" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#093B5D" />
+
+    <!-- Canonical (default, will be overridden) -->
+    <link rel="canonical" href="https://csmisr.com/" />
   </head>
   <body>
     <div id="root"></div>

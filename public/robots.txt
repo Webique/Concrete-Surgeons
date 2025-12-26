@@ -1,0 +1,22 @@
+# Robots.txt for Concrete Surgeons
+# https://csmisr.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://csmisr.com/sitemap.xml
+
+# Disallow non-content paths
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow important resources
+Allow: /assets/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
