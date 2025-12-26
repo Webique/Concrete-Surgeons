@@ -56,6 +56,7 @@ const breadcrumbSchema = {
   ],
 };
 
+
 export default function Demolition() {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.language === "ar";
